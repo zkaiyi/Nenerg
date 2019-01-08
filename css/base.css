@@ -14,7 +14,7 @@ button:hover{cursor: pointer;}
 /*地图背景*/
 html , body{height: 100%;width: 100%;}
 .container{width: 100%;position: relative;height: 100%;}
-.bg{width: 100%;height: 100%;position: absolute;top: 0;left: 0;background-color: aquamarine;z-index: 1;}
+.bg{width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 1;}
 .bg-img{width: 100%;height: 100%;}
 
 
@@ -30,7 +30,7 @@ html , body{height: 100%;width: 100%;}
 .nav a{text-decoration: none;display: block;width: 100%;height: 100%;}
 .nav-a .nav-b{color: #097adf;}
 .nav-list{margin-left: 77px;}
-.search{width: 203px;height:34px;border: 1px solid #e0e0e0;background-color: #d1d1d1;margin-top: 46px; }
+.search{width: 203px;height:34px;border: 1px solid #e0e0e0;background-color: #d1d1d1;margin-top: 46px;overflow: hidden; }
 .search-int{width:76%;height: 34px; padding-left: 7%;background-color: white;border: none;line-height: 34px;outline: none;font-size: 14px;color: #a1a1a1;}
 .search-img{vertical-align: middle;margin-left: 3%;}
 .search-img:hover{cursor: pointer;}
@@ -38,3 +38,15 @@ html , body{height: 100%;width: 100%;}
 .search-int::-moz-placeholder{color: #a1a1a1;}
 .search-int::-webkit-input-placeholder{color: #a1a1a1;}
 
+/*脚*/
+.foot{position: absolute;bottom: 0;left: 0;width: 100%;height:56px; background-color: #021221;opacity: 0.8;z-index: 2;text-align: center;font-size: 14px;color: #efefef;line-height: 56px;}
+
+/*基本信息*/
+.c-fl-container-menu{padding-top: 40px;width: 1118px;margin: auto;}
+.menu-nav{width: 130px;height: 45px;line-height: 45px;font-size: 18px;background-color: #f3f3f3;text-align: center;}
+.menu-nav a{color: #333333;text-decoration: none;display: block;width: 100%;height: 100%;}
+.menu-nav:nth-child(n+2){margin-top: 20px;}
+.menu-nav-a{background-color:#097adf; }
+.menu-nav-a a{color: white;}
+.menu-container{width: 958px;background-color: #fbfbfb;position: relative;overflow: hidden;height: 550px;}
+.menu-container-lm{position: absolute;top: 0;right: -17px;left:0;bottom:0;overflow-x: hidden;overflow-y: scroll;}

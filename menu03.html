@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>拓扑图展示</title>
+    <link href="img/base/icon.ico" rel="icon" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/kyz.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+
+    <!--css3ie8渲染-->
+    <script src="js/compatible/respond.min.js"></script>
+    <script type="text/javascript" src="[JS library]"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="js/compatible/selectivizr.js"></script>
+    <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+    <![endif]-->
+
+
+</head>
+<body>
+<div class="container">
+    <div class="bg">
+        <img class="bg-img" src="img/base/bg.jpg" />
+    </div>
+    <!--头部-->
+    <div class="header clearfix">
+       <div class="header-container">
+           <div class="logo fl"><img class="logo-img" src="img/base/logo.png" /></div>
+           <div class="nav-list fl clearfix">
+               <div class="nav  fl">
+                   <a href="index.html">
+                       <div class="nav-top"><img class="nav-top-img " src="img/base/nav-01.png" /><img class="nav-top-img hide" src="img/base/nav-01-a.png" /></div>
+                       <div class="nav-b">首页</div>
+                   </a>
+               </div>
+               <div class="nav nav-a fl">
+                   <a href="kyz.html">
+                       <div class="nav-top"><img class="nav-top-img hide" src="img/base/nav-02.png" /><img class="nav-top-img " src="img/base/nav-02-a.png" /></div>
+                       <div class="nav-b">空压站</div>
+                   </a>
+               </div>
+               <div class="nav fl">
+                   <a href="char01.html">
+                       <div class="nav-top"><img class="nav-top-img" src="img/base/nav-03.png" /><img class="nav-top-img hide" src="img/base/nav-03-a.png" /></div>
+                       <div class="nav-b">统计报表</div>
+                   </a>
+               </div>
+           </div>
+           <div class="search fr">
+                <input class="search-int" placeholder="搜索您要查找的内容" type="text"><img class="search-img" src="img/base/search.png" />
+           </div>
+       </div>
+    </div>
+    <!--内容-->
+    <div class="content clearfix">
+        <div class="c-fl fl">
+            <div class="c-fl-a"></div>
+            <div class="c-fl-container c-fl-container-menu clearfix">
+
+                <div class="menu fl">
+                    <div class="menu-nav"><a href="menu.html">基本信息</a></div>
+                    <div class="menu-nav"><a href="menu02.html">实时监测</a></div>
+                    <div class="menu-nav menu-nav-a"><a href="menu03.html">拓扑图展示</a></div>
+                    <div class="menu-nav"><a href="menu04.html">运行报告</a></div>
+                </div>
+
+
+                <div class="menu-04-container menu-03-container  fr">
+                    <div class="menu-03-container-ab"><img class="menu-03-container-ab-img" src="img/menu/tpt.png" /></div>
+                    <div class="menu-03">
+
+                        <!--电表-->
+                        <div class="gplot-content" id="gplot_01">
+                            <div class="gplot-content-title">电表</div>
+                            <div class="gplot-content-t">A相电压 : 237.3V</div>
+                            <div class="gplot-content-t">B相电压 : 237.3V</div>
+                            <div class="gplot-content-t">C相电压 : 237.3V</div>
+                        </div>
+
+                        <!--流量计-->
+                        <div class="gplot-content" id="gplot_02">
+                            <div class="gplot-content-title">流量计</div>
+                            <div class="gplot-content-t">累计流量 : 1147737.98Nm³</div>
+                            <div class="gplot-content-t">瞬时流量 : 19.99Nm³/min</div>
+                            <div class="gplot-content-t">压力 : 0.71Mpa</div>
+                            <div class="gplot-content-t">温度 : 34.79℃</div>
+                            <div class="gplot-content-t"></div>
+                        </div>
+
+                        <!--空压机-->
+                        <div class="gplot-content" id="gplot_03">
+                            <div class="gplot-content-title">空压机</div>
+                            <div class="gplot-content-t">供气压力 : 0.7MPa</div>
+                            <div class="gplot-content-t">主机A相电流 : 210A</div>
+                            <div class="gplot-content-t">排气温度 : 98℃</div>
+                            <div class="gplot-content-t">加载/卸载 : 加载</div>
+                            <div class="gplot-content-t">运行/停止 : 运行</div>
+                            <div class="gplot-content-t">加载时间 : 21337h</div>
+                            <div class="gplot-content-t"></div>
+                        </div>
+
+                        <!--压力变送器-->
+                        <div class="gplot-content" id="gplot_04">
+                            <div class="gplot-content-title">压力变送器</div>
+                            <div class="gplot-content-t">压力 : 0.615Mpa</div>
+                            <div class="gplot-content-t"></div>
+                        </div>
+
+                        <!--露点仪-->
+                        <div class="gplot-content" id="gplot_05">
+                            <div class="gplot-content-title">露点仪</div>
+                            <div class="gplot-content-t">温度 : 29.932℃</div>
+                            <div class="gplot-content-t">相对湿度 : 4.113%</div>
+                        </div>
+
+                        <!--干燥机-->
+                        <div class="gplot-content" id="gplot_06">
+                            <div class="gplot-content-title">干燥机</div>
+                            <div class="gplot-content-t">压缩机运行/停止 : 2.8</div>
+                            <div class="gplot-content-t">报警输出/关闭 : 打开</div>
+                            <div class="gplot-content-t">排污阀1打开关闭 : 打开</div>
+                            <div class="gplot-content-t">排污阀2打开关闭 : 打开</div>
+                            <div class="gplot-content-t">温度 : 0℃</div>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--脚-->
+    <div class="foot">浙江宏纪能源环境科技有限公司</div>
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/compatible/jquery.corner.js"></script>
+<script>
+    $(".menu-nav").corner("5px");
+    $(".gplot-content").corner("10px");
+</script>
+<script>
+    $(".search").corner("5px");
+</script>
+</body>
+</html>
