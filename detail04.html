@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>基本信息</title>
+    <title>设备-运行报告</title>
     <link href="img/base/icon.ico" rel="icon" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/index.css" />
@@ -64,46 +64,42 @@
             <div class="c-fl-container c-fl-container-menu clearfix">
 
                 <div class="menu fl">
-                    <div class="menu-nav menu-nav-a"><a href="menu.html">基本信息</a></div>
-                    <div class="menu-nav"><a href="menu02.html">实时监测</a></div>
-                    <div class="menu-nav"><a href="menu03.html">拓扑图展示</a></div>
-                    <div class="menu-nav"><a href="menu04.html">运行报告</a></div>
+                    <div class="menu-nav"><a href="detail.html">基本信息</a></div>
+                    <div class="menu-nav"><a href="detail02.html">实时监测</a></div>
+                    <div class="menu-nav menu-nav-a"><a href="detail04.html">运行报告</a></div>
                 </div>
 
-                <div class="menu-container fr">
-                    <div class="menu-container-lm">
-                        <div class="menu-item-list-container">
-                            <!--信息-->
-                            <div class="message-list clearfix">
-                                <div class="message-list-fl fl" id="names">空压站名称</div>
-                                <div class="message-list-fr fr" id="name">1#空压站</div>
+
+                <div class="menu-04-container fr">
+                    <div class="menu04-title"><span class="m-s03">报告历史记录</span></div>
+                    <div class="menu-04-c">
+                        <div class="message-list menu-04-c-list report-list clearfix">
+                            <div class="report-list-fl fl">
+                                <div class="report-list-fl-01"><img class="report-list-fl-01-img" src="img/menu/report.png"></div>
+                                <div class="report-list-fl-02">报告</div>
                             </div>
-                            <div class="message-list clearfix">
-                                <div class="message-list-fl fl">设备使用用户</div>
-                                <div class="message-list-fr fr" id="username">浙江宏纪能源环境科技有限公司</div>
+                            <div class="report-list-fr fl">
+                                <div class="report-list-fr-t1">开始时间：<span class="report-s1">2018-10-22 00:00</span></div>
+                                <div class="report-list-fr-t1 report-list-fr-t2">结束时间：<span class="report-s1">2018-10-22 00:00</span></div>
+                                <div class="report-list-fr-t1 report-list-fr-t1-">记录时间：2018-10-22 00:00</div>
                             </div>
-                            <!--信息 结束-->
-                            <div class="message-list message-list2 clearfix" data-typelist="50">
-                                <div class="message-list-fl fl">空压机</div>
-                                <div class="message-list-fr fr">1#空压机</div>
-                            </div> <div class="message-list message-list2 clearfix" data-typelist="51">
-                            <div class="message-list-fl fl">干燥机</div>
-                            <div class="message-list-fr fr">1#冷干机</div>
-                        </div> <div class="message-list message-list2 clearfix" data-typelist="53">
-                            <div class="message-list-fl fl">流量计</div>
-                            <div class="message-list-fr fr">1#流量计</div>
-                        </div> <div class="message-list message-list2 clearfix" data-typelist="54">
-                            <div class="message-list-fl fl">电表</div>
-                            <div class="message-list-fr fr">1#空压机测量电表</div>
-                        </div> <div class="message-list message-list2 clearfix" data-typelist="55">
-                            <div class="message-list-fl fl">压力变送器</div>
-                            <div class="message-list-fr fr">后处理压力测点</div>
-                        </div> <div class="message-list message-list2 clearfix" data-typelist="56">
-                            <div class="message-list-fl fl">露点仪</div>
-                            <div class="message-list-fr fr">空压站露点仪</div>
-                        </div></div>
+                        </div>
+                        <div class="message-list menu-04-c-list report-list clearfix">
+                            <div class="report-list-fl fl">
+                                <div class="report-list-fl-01"><img class="report-list-fl-01-img" src="img/menu/report.png"></div>
+                                <div class="report-list-fl-02">报告</div>
+                            </div>
+                            <div class="report-list-fr fl">
+                                <div class="report-list-fr-t1">开始时间：<span class="report-s1">2018-10-22 00:00</span></div>
+                                <div class="report-list-fr-t1 report-list-fr-t2">结束时间：<span class="report-s1">2018-10-22 00:00</span></div>
+                                <div class="report-list-fr-t1 report-list-fr-t1-">记录时间：2018-10-22 00:00</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
+
             </div>
         </div>
     </div>
@@ -116,10 +112,6 @@
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/compatible/jquery.min-1.0.js"></script>
 <script src="js/compatible/jquery.corner.js"></script>
-<script>
-
-    $(".menu-nav").corner("5px")
-</script>
 <script src="js/common.js"></script>
 </body>
 </html>

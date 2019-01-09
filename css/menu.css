@@ -40,7 +40,16 @@
 .report-list-fr-t1- {color: #3475b4;margin-top: 7px;}
 .menu-04-c-list{background-color: #fbfbfb;padding-top: 12px;padding-bottom: 13px;}
 .menu-04-c-list:nth-child(n+2) {margin-top: 5px;}
-.menu-04-c-list:hover{cursor: pointer;box-shadow:#e8e8e8 0px 0px 10px;}
+.menu-04-c-list:hover{cursor: pointer;
+    box-shadow:#e8e8e8 0px 0px 10px;
+    -moz-box-shadow:#e8e8e8 0px 0px 10px;
+    -webkit-box-shadow:#e8e8e8 0px 0px 10px;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#e8e8e8', Direction=10, Strength=5);
+
+
+
+
+}
 .menu-04-c{margin-top: 14px;}
 /*3*/
 .menu-03-container{    width: 959px;height: 560px;position: relative;}
