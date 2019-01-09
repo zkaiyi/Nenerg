@@ -41,12 +41,12 @@ $(document).on("click",".right-nav",function () {
                     },
 
                     legend: {
-                        data:['蒸发量','降水量','平均温度']
+                        // data:['蒸发量','降水量','平均温度']
                     },
                     xAxis: [
                         {
                             type: 'category',
-                            data: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+                            data: ['星期一','星期二','星期三','星期四','星期五','星期六','星期日'],
                             axisPointer: {
                                 type: 'shadow'
                             }
@@ -55,41 +55,41 @@ $(document).on("click",".right-nav",function () {
                     yAxis: [
                         {
                             type: 'value',
-                            name: '水量',
+                            // name: '水量',
                             min: 0,
-                            max: 250,
-                            interval: 50,
+                            // max: 250,
+                            // interval: 50,
                             axisLabel: {
-                                formatter: '{value} ml'
+                                formatter: '{value} '
                             }
                         },
                         {
                             type: 'value',
-                            name: '温度',
+                            // name: '温度',
                             min: 0,
-                            max: 25,
-                            interval: 5,
+                            // max: 25,
+                            // interval: 5,
                             axisLabel: {
-                                formatter: '{value} °C'
+                                formatter: '{value} '
                             }
                         }
                     ],
                     series: [
                         {
-                            name:'蒸发量',
+                            // name:'蒸发量',
                             type:'bar',
-                            data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
+                            data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6]
                         },
                         {
-                            name:'降水量',
+                            // name:'降水量',
                             type:'bar',
-                            data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
+                            data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6]
                         },
                         {
-                            name:'平均温度',
+                            // name:'平均温度',
                             type:'line',
                             yAxisIndex: 1,
-                            data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
+                            data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3]
                         }
                     ]
                 };
@@ -109,12 +109,12 @@ $(document).on("click",".right-nav",function () {
                     },
 
                     legend: {
-                        data:['蒸发量','降水量','平均温度']
+                        // data:['蒸发量','降水量','平均温度']
                     },
                     xAxis: [
                         {
                             type: 'category',
-                            data: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+                            data: ['第一季度','第二季度','第三季度','第四季度'],
                             axisPointer: {
                                 type: 'shadow'
                             }
@@ -123,41 +123,41 @@ $(document).on("click",".right-nav",function () {
                     yAxis: [
                         {
                             type: 'value',
-                            name: '水量',
+                            // name: '水量',
                             min: 0,
-                            max: 250,
-                            interval: 50,
+                            // max: 250,
+                            // interval: 50,
                             axisLabel: {
                                 formatter: '{value} ml'
                             }
                         },
                         {
                             type: 'value',
-                            name: '温度',
+                            // name: '温度',
                             min: 0,
-                            max: 25,
-                            interval: 5,
+                            // max: 25,
+                            // interval: 5,
                             axisLabel: {
-                                formatter: '{value} °C'
+                                formatter: '{value} '
                             }
                         }
                     ],
                     series: [
                         {
-                            name:'蒸发量',
+                            // name:'蒸发量',
                             type:'bar',
-                            data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
+                            data:[ 32.6, 20.0, 6.4, 3.3]
                         },
                         {
-                            name:'降水量',
+                            // name:'降水量',
                             type:'bar',
-                            data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
+                            data:[ 48.7, 18.8, 6.0, 2.3]
                         },
                         {
-                            name:'平均温度',
+                            // name:'平均温度',
                             type:'line',
                             yAxisIndex: 1,
-                            data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
+                            data:[ 23.0, 16.5, 12.0, 6.2]
                         }
                     ]
                 };
@@ -191,38 +191,38 @@ $(document).on("click",".right-nav",function () {
                     yAxis: [
                         {
                             type: 'value',
-                            name: '水量',
+                            // name: '水量',
                             min: 0,
-                            max: 250,
-                            interval: 50,
+                            // max: 250,
+                            // interval: 50,
                             axisLabel: {
-                                formatter: '{value} ml'
+                                formatter: '{value} '
                             }
                         },
                         {
                             type: 'value',
-                            name: '温度',
+                            // name: '温度',
                             min: 0,
-                            max: 25,
-                            interval: 5,
+                            // max: 25,
+                            // interval: 5,
                             axisLabel: {
-                                formatter: '{value} °C'
+                                formatter: '{value} '
                             }
                         }
                     ],
                     series: [
                         {
-                            name:'蒸发量',
+                            // name:'蒸发量',
                             type:'bar',
                             data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
                         },
                         {
-                            name:'降水量',
+                            // name:'降水量',
                             type:'bar',
                             data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
                         },
                         {
-                            name:'平均温度',
+                            // name:'平均温度',
                             type:'line',
                             yAxisIndex: 1,
                             data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
@@ -233,86 +233,55 @@ $(document).on("click",".right-nav",function () {
 
 
                 var myChart04 = echarts.init(document.getElementById('char04'));
-                $.get('js/compatible/aqi-beijing.json', function (data) {
-                    myChart04.setOption(option04 = {
-                        title: {
-                            text: ''
-                        },
-                        tooltip: {
-                            trigger: 'axis'
-                        },
-                        xAxis: {
-                            data: data.map(function (item) {
-                                return item[0];
-                            })
-                        },
-                        yAxis: {
-                            splitLine: {
-                                show: false
-                            }
-                        },
 
-                        dataZoom: [{
-                            startValue: '2014-06-01'
-                        }, {
-                            type: 'inside'
-                        }],
-                        visualMap: {
-                            top: 10,
-                            right: 10,
-                            pieces: [{
-                                // gt: 0,
-                                // lte: 50,
-                                color: '#096'
-                            }, {
-                                // gt: 50,
-                                // lte: 100,
-                                color: '#ffde33'
-                            }, {
-                                // gt: 100,
-                                // lte: 150,
-                                color: '#ff9933'
-                            }, {
-                                // gt: 150,
-                                // lte: 200,
-                                color: '#cc0033'
-                            }, {
-                                // gt: 200,
-                                // lte: 300,
-                                // color: '#660099'
-                                color: '#cc0033'
-                            }, {
-                                // gt: 300,
-                                // color: '#7e0023'
-                                color: '#ff9933'
-                            }],
-                            outOfRange: {
-                                color: '#999'
-                            }
-                        },
-                        series: {
-                            name: '能效分析',
-                            type: 'line',
-                            data: data.map(function (item) {
-                                return item[1];
-                            }),
-                            markLine: {
-                                silent: true,
-                                data: [{
-                                    yAxis: 50
-                                }, {
-                                    yAxis: 100
-                                }, {
-                                    yAxis: 150
-                                }, {
-                                    yAxis: 200
-                                }, {
-                                    yAxis: 300
-                                }]
-                            }
-                        }
-                    });
+                data = [["2018-06-05",116],["2018-06-06",129],["2018-06-07",135],["2018-06-08",86],["2018-06-09",73],["2018-06-10",85],["2018-06-11",73],["2018-06-12",68],["2018-06-13",92],["2018-06-14",130],["2018-06-15",245],["2018-06-16",139],["2018-06-17",115],["2018-06-18",111],["2018-06-19",309],["2018-06-20",206],["2018-06-21",137],["2018-06-22",128],["2018-06-23",85],["2018-06-24",94],["2018-06-25",71],["2018-06-26",106],["2018-06-27",84],["2018-06-28",93],["2018-06-29",85],["2018-06-30",73],["2018-07-01",83],["2018-07-02",125],["2018-07-03",107],["2018-07-04",82],["2018-07-05",44],["2018-07-06",72],["2018-07-07",106],["2018-07-08",107],["2018-07-09",66],["2018-07-10",91],["2018-07-11",92],["2018-07-12",113],["2018-07-13",107],["2018-07-14",131],["2018-07-15",111],["2018-07-16",64],["2018-07-17",69],["2018-07-18",88],["2018-07-19",77],["2018-07-20",83],["2018-07-21",111],["2018-07-22",57],["2018-07-23",55],["2018-07-24",60]];
+
+                var dateList = data.map(function (item) {
+                    return item[0];
                 });
+                var valueList = data.map(function (item) {
+                    return item[1];
+                });
+
+                option04 = {
+
+                    // Make gradient line here
+                    visualMap: [{
+                        show: false,
+                        type: 'continuous',
+                        seriesIndex: 0,
+                        min: 0,
+                        max: 400
+                    }],
+
+
+                    title: [{
+                        left: 'center',
+
+                    }],
+                    tooltip: {
+                        trigger: 'axis'
+                    },
+                    xAxis: [{
+                        data: dateList
+                    }],
+                    yAxis: [{
+                        splitLine: {show: false}
+                    }],
+
+                    series: [{
+                        type: 'line',
+                        showSymbol: false,
+                        data: valueList
+                    }]
+                };;
+                if (option04 && typeof option04 === "object") {
+                    myChart04.setOption(option04, true);
+                }
+
+
+
+
 
 
 

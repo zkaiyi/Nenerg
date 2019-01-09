@@ -21,6 +21,13 @@
     <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
     <![endif]-->
 
+    <style>
+        .message-list:nth-child(2) {
+            margin-top: 15px;
+        }
+        .message-list:hover{cursor: pointer;}
+    </style>
+
 
 </head>
 <body>
@@ -30,32 +37,32 @@
     </div>
     <!--头部-->
     <div class="header clearfix">
-       <div class="header-container">
-           <div class="logo fl"><img class="logo-img" src="img/base/logo.png" /></div>
-           <div class="nav-list fl clearfix">
-               <div class="nav  fl">
-                   <a href="index.html">
-                       <div class="nav-top"><img class="nav-top-img " src="img/base/nav-01.png" /><img class="nav-top-img hide" src="img/base/nav-01-a.png" /></div>
-                       <div class="nav-b">首页</div>
-                   </a>
-               </div>
-               <div class="nav nav-a fl">
-                   <a href="kyz.html">
-                       <div class="nav-top"><img class="nav-top-img hide" src="img/base/nav-02.png" /><img class="nav-top-img " src="img/base/nav-02-a.png" /></div>
-                       <div class="nav-b">空压站</div>
-                   </a>
-               </div>
-               <div class="nav fl">
-                   <a href="char01.html">
-                       <div class="nav-top"><img class="nav-top-img" src="img/base/nav-03.png" /><img class="nav-top-img hide" src="img/base/nav-03-a.png" /></div>
-                       <div class="nav-b">统计报表</div>
-                   </a>
-               </div>
-           </div>
-           <div class="search fr">
+        <div class="header-container">
+            <div class="logo fl"><img class="logo-img" src="img/base/logo.png" /></div>
+            <div class="nav-list fl clearfix">
+                <div class="nav  fl">
+                    <a href="index.html">
+                        <div class="nav-top"><img class="nav-top-img " src="img/base/nav-01.png" /><img class="nav-top-img hide" src="img/base/nav-01-a.png" /></div>
+                        <div class="nav-b">首页</div>
+                    </a>
+                </div>
+                <div class="nav nav-a fl">
+                    <a href="kyz.html">
+                        <div class="nav-top"><img class="nav-top-img hide" src="img/base/nav-02.png" /><img class="nav-top-img " src="img/base/nav-02-a.png" /></div>
+                        <div class="nav-b">空压站</div>
+                    </a>
+                </div>
+                <div class="nav fl">
+                    <a href="char01.html">
+                        <div class="nav-top"><img class="nav-top-img" src="img/base/nav-03.png" /><img class="nav-top-img hide" src="img/base/nav-03-a.png" /></div>
+                        <div class="nav-b">统计报表</div>
+                    </a>
+                </div>
+            </div>
+            <div class="search fr">
                 <input class="search-int" placeholder="搜索您要查找的内容" type="text"><img class="search-img" src="img/base/search.png" />
-           </div>
-       </div>
+            </div>
+        </div>
     </div>
     <!--内容-->
     <div class="content clearfix">
@@ -64,166 +71,50 @@
             <div class="c-fl-container c-fl-container-menu clearfix">
 
                 <div class="menu fl">
-                    <div class="menu-nav"><a href="detail.html">基本信息</a></div>
+                    <div class="menu-nav "><a href="detail.html">基本信息</a></div>
                     <div class="menu-nav menu-nav-a"><a href="detail02.html">实时监测</a></div>
                     <div class="menu-nav"><a href="detail04.html">运行报告</a></div>
                 </div>
 
                 <div class="menu-container fr">
                     <div class="menu-container-lm">
-                        <div class="row-menu-item-container">
-                            <div class="menu-item-list-container">
-                                <div class="menu-item-list" data-areaid="50">
-                                    <div class="menu-item-list-title clearfix" data-areaid="50">
-                                        <div class="menu-item-list-title-fl fl">1#空压机</div>
-                                        <div class="menu-item-list-title-fr fr"><img class="menu-item-list-title-fr-img" src="img/menu/menu-left.png"></div>
-                                    </div>
-                                    <div class="menu-item-list-content hide">
-                                        <div class="menu-item-list-content-list clearfix" data-dataname="供气压力">
-                                            <div class="menu-item-list-content-list-fl fl">供气压力</div>
-                                            <div class="menu-item-list-content-list-fr fr">0.7MPa<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                        </div>
-                                        <div class="menu-item-list-content-list clearfix" data-dataname="主机A相电流">
-                                            <div class="menu-item-list-content-list-fl fl">主机A相电流</div>
-                                            <div class="menu-item-list-content-list-fr fr">210A<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                        </div>
-                                        <div class="menu-item-list-content-list clearfix" data-dataname="排气温度">
-                                            <div class="menu-item-list-content-list-fl fl">排气温度</div>
-                                            <div class="menu-item-list-content-list-fr fr">98℃<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                        </div>
-                                        <div class="menu-item-list-content-list clearfix" data-dataname="加载/卸载">
-                                            <div class="menu-item-list-content-list-fl fl">加载/卸载</div>
-                                            <div class="menu-item-list-content-list-fr fr">加载<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                        </div>
-                                        <div class="menu-item-list-content-list clearfix" data-dataname="运行/停止">
-                                            <div class="menu-item-list-content-list-fl fl">运行/停止</div>
-                                            <div class="menu-item-list-content-list-fr fr">运行<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                        </div>
-                                        <div class="menu-item-list-content-list clearfix" data-dataname="加载时间">
-                                            <div class="menu-item-list-content-list-fl fl">加载时间</div>
-                                            <div class="menu-item-list-content-list-fr fr">21337h<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="menu-item-list" data-areaid="51">
-                                <div class="menu-item-list-title clearfix" data-areaid="51">
-                                    <div class="menu-item-list-title-fl fl">1#冷干机</div>
-                                    <div class="menu-item-list-title-fr fr"><img class="menu-item-list-title-fr-img" src="img/menu/menu-left.png"></div>
-                                </div>
-                                <div class="menu-item-list-content " style="display: none;"><div class="menu-item-list-content-list clearfix" data-dataname="压缩机运行/停止">
-                                    <div class="menu-item-list-content-list-fl fl">压缩机运行/停止</div>
-                                    <div class="menu-item-list-content-list-fr fr">2.8<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="报警输出/关闭">
-                                    <div class="menu-item-list-content-list-fl fl">报警输出/关闭</div>
-                                    <div class="menu-item-list-content-list-fr fr">打开<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="排污阀1打开关闭">
-                                    <div class="menu-item-list-content-list-fl fl">排污阀1打开关闭</div>
-                                    <div class="menu-item-list-content-list-fr fr">打开<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="排污阀2打开关闭">
-                                    <div class="menu-item-list-content-list-fl fl">排污阀2打开关闭</div>
-                                    <div class="menu-item-list-content-list-fr fr">打开<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="温度">
-                                    <div class="menu-item-list-content-list-fl fl">温度</div>
-                                    <div class="menu-item-list-content-list-fr fr">0℃<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="设备运行/停机">
-                                    <div class="menu-item-list-content-list-fl fl">设备运行/停机</div>
-                                    <div class="menu-item-list-content-list-fr fr">运行<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div></div>
+                        <div class="menu-item-list-container">
+                            <!--信息-->
+                            <div class="message-list clearfix">
+                                <div class="message-list-fl fl" id="names">供气压力</div>
+                                <div class="message-list-fr fr" id="name">0.7MPa</div>
                             </div>
-                                <div class="menu-item-list" data-areaid="53">
-                                <div class="menu-item-list-title clearfix" data-areaid="53">
-                                    <div class="menu-item-list-title-fl fl">1#流量计</div>
-                                    <div class="menu-item-list-title-fr fr"><img class="menu-item-list-title-fr-img" src="img/menu/menu-left.png"></div>
-                                </div>
-                                <div class="menu-item-list-content " style="display: none;"><div class="menu-item-list-content-list clearfix" data-dataname="累计流量">
-                                    <div class="menu-item-list-content-list-fl fl">累计流量</div>
-                                    <div class="menu-item-list-content-list-fr fr">1147737.98Nm³<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="瞬时流量">
-                                    <div class="menu-item-list-content-list-fl fl">瞬时流量</div>
-                                    <div class="menu-item-list-content-list-fr fr">19.99Nm³/min<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="压力">
-                                    <div class="menu-item-list-content-list-fl fl">压力</div>
-                                    <div class="menu-item-list-content-list-fr fr">0.71Mpa<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="温度">
-                                    <div class="menu-item-list-content-list-fl fl">温度</div>
-                                    <div class="menu-item-list-content-list-fr fr">34.79℃<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div></div>
+
+                            <div class="message-list clearfix">
+                                <div class="message-list-fl fl" >主机A相电流</div>
+                                <div class="message-list-fr fr" >210A</div>
                             </div>
-                                <div class="menu-item-list" data-areaid="54">
-                                <div class="menu-item-list-title clearfix" data-areaid="54">
-                                    <div class="menu-item-list-title-fl fl">1#空压机测量电表</div>
-                                    <div class="menu-item-list-title-fr fr"><img class="menu-item-list-title-fr-img" src="img/menu/menu-left.png"></div>
-                                </div>
-                                <div class="menu-item-list-content " style="display: none;"><div class="menu-item-list-content-list clearfix" data-dataname="A相电压">
-                                    <div class="menu-item-list-content-list-fl fl">A相电压</div>
-                                    <div class="menu-item-list-content-list-fr fr">237.3V<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="B相电压">
-                                    <div class="menu-item-list-content-list-fl fl">B相电压</div>
-                                    <div class="menu-item-list-content-list-fr fr">236.5V<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="C相电压">
-                                    <div class="menu-item-list-content-list-fl fl">C相电压</div>
-                                    <div class="menu-item-list-content-list-fr fr">236.8V<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="A相电流">
-                                    <div class="menu-item-list-content-list-fl fl">A相电流</div>
-                                    <div class="menu-item-list-content-list-fr fr">237.5A<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="B相电流">
-                                    <div class="menu-item-list-content-list-fl fl">B相电流</div>
-                                    <div class="menu-item-list-content-list-fr fr">217.5A<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="C相电流">
-                                    <div class="menu-item-list-content-list-fl fl">C相电流</div>
-                                    <div class="menu-item-list-content-list-fr fr">217.5A<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="A箱功率">
-                                    <div class="menu-item-list-content-list-fl fl">A箱功率</div>
-                                    <div class="menu-item-list-content-list-fr fr">39kW<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="B箱功率">
-                                    <div class="menu-item-list-content-list-fl fl">B箱功率</div>
-                                    <div class="menu-item-list-content-list-fr fr">35.5kW<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="C箱功率">
-                                    <div class="menu-item-list-content-list-fl fl">C箱功率</div>
-                                    <div class="menu-item-list-content-list-fr fr">110kW<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="总瞬时功率">
-                                    <div class="menu-item-list-content-list-fl fl">总瞬时功率</div>
-                                    <div class="menu-item-list-content-list-fr fr">110kW<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="A相功率因素">
-                                    <div class="menu-item-list-content-list-fl fl">A相功率因素</div>
-                                    <div class="menu-item-list-content-list-fr fr">1<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="B相功率因素">
-                                    <div class="menu-item-list-content-list-fl fl">B相功率因素</div>
-                                    <div class="menu-item-list-content-list-fr fr">1<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="C相功率因素">
-                                    <div class="menu-item-list-content-list-fl fl">C相功率因素</div>
-                                    <div class="menu-item-list-content-list-fr fr">1<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="总功率因素">
-                                    <div class="menu-item-list-content-list-fl fl">总功率因素</div>
-                                    <div class="menu-item-list-content-list-fr fr">1<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="耗电量">
-                                    <div class="menu-item-list-content-list-fl fl">耗电量</div>
-                                    <div class="menu-item-list-content-list-fr fr">109630.23kWh<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="当前正向有功尖电量">
-                                    <div class="menu-item-list-content-list-fl fl">当前正向有功尖电量</div>
-                                    <div class="menu-item-list-content-list-fr fr">0kWh<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="当前正向有功锋电量">
-                                    <div class="menu-item-list-content-list-fl fl">当前正向有功锋电量</div>
-                                    <div class="menu-item-list-content-list-fr fr">725kWh<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="当前正向有功平电量">
-                                    <div class="menu-item-list-content-list-fl fl">当前正向有功平电量</div>
-                                    <div class="menu-item-list-content-list-fr fr">2825kWh<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div><div class="menu-item-list-content-list clearfix" data-dataname="当前正向有功谷电量">
-                                    <div class="menu-item-list-content-list-fl fl">当前正向有功谷电量</div>
-                                    <div class="menu-item-list-content-list-fr fr">0kWh<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div></div>
+
+                            <div class="message-list clearfix">
+                                <div class="message-list-fl fl" >排气温度</div>
+                                <div class="message-list-fr fr" >98℃</div>
                             </div>
-                                <div class="menu-item-list" data-areaid="55">
-                                <div class="menu-item-list-title clearfix" data-areaid="55">
-                                    <div class="menu-item-list-title-fl fl">后处理压力测点</div>
-                                    <div class="menu-item-list-title-fr fr"><img class="menu-item-list-title-fr-img" src="img/menu/menu-left.png"></div>
-                                </div>
-                                <div class="menu-item-list-content " style="display: none;"><div class="menu-item-list-content-list clearfix" data-dataname="压力">
-                                    <div class="menu-item-list-content-list-fl fl">压力</div>
-                                    <div class="menu-item-list-content-list-fr fr">0.615Mpa<img class="milclf-img" src="img/menu/menu-right.png"></div>
-                                </div></div>
+
+                            <div class="message-list clearfix">
+                                <div class="message-list-fl fl" >加载/卸载</div>
+                                <div class="message-list-fr fr" >加载</div>
                             </div>
-                           </div>
+
+                            <div class="message-list clearfix">
+                                <div class="message-list-fl fl" >运行/停止</div>
+                                <div class="message-list-fr fr" >运行</div>
+                            </div>
+
+                            <div class="message-list clearfix">
+                                <div class="message-list-fl fl" >加载时间</div>
+                                <div class="message-list-fr fr" >21337h</div>
+                            </div>
+
+
+
+
+
+                            <!--信息 结束-->
                         </div>
                     </div>
                 </div>
@@ -241,18 +132,13 @@
 <script src="js/compatible/jquery.corner.js"></script>
 <script>
 
-
-    $(document).on("click",".menu-item-list-title",function () {
-        if($(this).parent().hasClass("menu-item-list-title-fr-img-add02")){
-            $(this).parent().removeClass("menu-item-list-title-fr-img-add02");
-            $(this).siblings(".menu-item-list-content").slideUp();
-        }else {
-            $(this).parent().addClass("menu-item-list-title-fr-img-add02");
-            $(this).siblings(".menu-item-list-content").slideDown();
-        }
-    });
-
+    $(".menu-nav").corner("5px")
 </script>
 <script src="js/common.js"></script>
+<script>
+    $(document).on("click",".message-list",function () {
+        window.location.href='detail02-his.html'
+    })
+</script>
 </body>
 </html>
