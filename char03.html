@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>区域统计</title>
+    <title>综合统计</title>
     <link href="img/base/icon.ico" rel="icon" />
     <link rel="stylesheet" href="css/compatible/datepicker.css" />
     <link rel="stylesheet" href="css/compatible/OverlayScrollbars.css" />
@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/kyz.css" />
-    <link rel="stylesheet" href="css/char.css" />
 
     <link rel="stylesheet" href="css/char02.css" />
+    <link rel="stylesheet" href="css/char.css" />
+    <link rel="stylesheet" href="css/char03.css" />
 
 
     <!--css3ie8渲染-->
@@ -71,8 +72,8 @@
             <div class="c-fl-container c-fl-container-menu clearfix">
 
                 <div class="menu fl">
-                    <div class="menu-nav"><a href="char04.html">综合统计</a></div>
-                    <div class="menu-nav menu-nav-a"><a href="char05.html">区域统计</a></div>
+                    <div class="menu-nav menu-nav-a"><a href="char04.html">综合统计</a></div>
+                    <div class="menu-nav"><a href="char05.html">区域统计</a></div>
                 </div>
 
                 <div class="char-container-fr fr clearfix">
@@ -149,105 +150,128 @@
                     </div>
 
                     <div class="area-info-fr fr">
+                        <div class="info-container">
+                            <div class="info-banner clearfix">
+                                <div class="info-banner-fl fl">空压站总<span class="ZLtype"></span>量</div>
+                                <div class="info-banner-fr fr clearfix">
 
-                        <div class="info-banner clearfix">
-                            <div class="info-banner-fl fl"><span class="ZLname">浙江宏纪能源</span>-耗<span class="ZLtype">电</span>量</div>
-                            <div class="info-banner-fr fr clearfix">
-
-                                <div class="info-choose01 fl clearfix" style="border-radius: 5px;">
-                                    <div class="info-choose01-title">选择类型<img class="info-choose01-title-img fr" src="img/char/doen.png"></div>
-                                    <div class="info-choose01-t hide">
-                                        <div class="info-choose01-t-list ZLtype02">水</div>
-                                        <div class="info-choose01-t-list info-choose01-t-list-a ZLtype01">电</div>
-                                        <div class="info-choose01-t-list ZLtype03">气</div>
-                                    </div>
-                                </div>
-
-                                <div class="info-choose01- hide fl clearfix">
-                                    <div class="info-choose01-title">选择类型<img class="info-choose01-title-img fr" src="img/char/doen.png"></div>
-                                    <div class="info-choose01-t hide">
-                                        <div class="info-choose01-t-list ZLtype02">水</div>
-                                        <div class="info-choose01-t-list info-choose01-t-list-a ZLtype01">电</div>
-                                        <div class="info-choose01-t-list ZLtype03">气</div>
-                                    </div>
-                                </div>
-
-
-
-
-
-                                <div class="info-choose02 yyyy01 fl" style="border-radius: 5px;">
-                                    <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                        <!--<i class="c-datepicker-range__icon kxiconfont icon-clock"></i>-->
-                                        <img class="info-choose04-img" src="img/char/doen.png">
-                                        <input type="text" autocomplete="off" name="" placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-
-                                    </div>
-                                </div>
-                                <div class="info-choose03 info-choose03-01 fl">至</div>
-                                <div class="info-choose03  info-choose03-02 hide fl">——</div>
-                                <div class="info-choose02 yyyy02 fl" style="border-radius: 5px;">
-                                    <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                        <!--<i class="c-datepicker-range__icon kxiconfont icon-clock"></i>-->
-                                        <img class="info-choose04-img" src="img/char/doen.png">
-                                        <input type="text" autocomplete="off" name="" placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-
-
-
-
-                        <div class="area-content">
-                            <div class="area-content-top">
-                                <div class="area-content-top-container">
-                                    <div class="area-content-top-container-t1 clearfix">
-                                        <div class="area-content-top-container-t1-fl fl">耗<span class="ZLtype">电</span>量：<span class="span-n-01" id="ZLhdl">217529.28</span></div>
-                                        <div class="area-content-top-container-t1-fr fr clearfix">
-                                            <div class="area-content-top-container-t1-fr-fl fl">今日<span class="ZLdun">度</span>数：<span class="span-n-02" id="ZLtoday">0</span></div>
-                                            <div class="area-content-top-container-t1-fr-fl fl">昨日<span class="ZLdun">度</span>数：<span class="span-n-02" id="ZLyesterday">0</span></div>
+                                    <div class="info-choose01 fl clearfix">
+                                        <div class="info-choose01-title">选择类型<img class="info-choose01-title-img fr" src="img/char/doen.png"></div>
+                                        <div class="info-choose01-t hide">
+                                            <div class="info-choose01-t-list">水</div>
+                                            <div class="info-choose01-t-list info-choose01-t-list-a">电</div>
+                                            <div class="info-choose01-t-list">气</div>
                                         </div>
                                     </div>
-                                    <div class="area-content-top-container-t2"></div>
-                                </div>
-                                <div class="area-info-area">
-                                    <div id="table"></div>
+
+                                    <div class="info-choose01- hide fl clearfix">
+                                        <div class="info-choose01-title">选择类型<img class="info-choose01-title-img fr" src="img/char/doen.png"></div>
+                                        <div class="info-choose01-t hide">
+                                            <div class="info-choose01-t-list">水</div>
+                                            <div class="info-choose01-t-list info-choose01-t-list-a">电</div>
+                                            <div class="info-choose01-t-list">气</div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <div class="info-choose02 fl">
+                                        <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
+                                            <!--<i class="c-datepicker-range__icon kxiconfont icon-clock"></i>-->
+                                            <img class="info-choose04-img" src="img/char/doen.png">
+                                            <input type="text" autocomplete="off" name="" placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
+
+                                        </div>
+                                    </div>
+                                    <div class="info-choose03 info-choose03-01 fl">至</div>
+                                    <div class="info-choose03  info-choose03-02 hide fl">——</div>
+                                    <div class="info-choose02 fl">
+                                        <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
+                                            <!--<i class="c-datepicker-range__icon kxiconfont icon-clock"></i>-->
+                                            <img class="info-choose04-img" src="img/char/doen.png">
+                                            <input type="text" autocomplete="off" name="" placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
+
+                                        </div>
+                                    </div>
+
+
+
                                 </div>
                             </div>
-                            <!--<div class="area-content-mid clearfix">-->
-                                <!--<div class="area-content-mid-fl fl"><span class="ZLtype">电</span>量</div>-->
-                                <!--<div class="area-content-mid-fr fr"><span id="ZLhao">217529.28</span><span class="ZLhd">m²</span></div>-->
-                            <!--</div>-->
+
+                            <div class="info-02-mode clearfix">
+                                <div class="info-02-mode-fl fl">
+                                    <div class="info-02-mode-fl-01">总<span class="ZLtype"></span>量</div>
+                                    <div class="info-02-mode-fl-02"><span class="info-02-mode-fl-02-span">2562123.22</span><span class="ZLdun">度</span></div>
+                                </div>
+                                <div class="info-02-mode-fr fr">
+
+                                    <div class="info-02-mode-fr-list clearfix" style="border-radius: 5px;">
+                                        <div class="info-02-mode-fr-list-fl fl"><img class="info-02-mode-fr-list-fl-img" src="img/char/mode2-02.png">总公共区域用<span class="ZLtype"></span></div>
+                                        <div class="info-02-mode-fr-list-fr fr"><span class="info-02-mode-fr-list-fr-span ZHgg">2156262</span><span class="ZLdun">度</span></div>
+                                    </div>
+
+                                    <div class="info-02-mode-fr-list clearfix" style="border-radius: 5px;">
+                                        <div class="info-02-mode-fr-list-fl fl"><img class="info-02-mode-fr-list-fl-img" src="img/char/mode2-03.jpg">生产区域用<span class="ZLtype"></span></div>
+                                        <div class="info-02-mode-fr-list-fr fr"><span class="info-02-mode-fr-list-fr-span ZHsc">2156262</span><span class="ZLdun">度</span></div>
+                                    </div>
+
+                                    <div class="info-02-mode-fr-list clearfix" style="border-radius: 5px;">
+                                        <div class="info-02-mode-fr-list-fl fl"><img class="info-02-mode-fr-list-fl-img" src="img/char/mode2-04.png">照明区域用<span class="ZLtype"></span></div>
+                                        <div class="info-02-mode-fr-list-fr fr"><span class="info-02-mode-fr-list-fr-span ZHzm">2156262</span><span class="ZLdun">度</span></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="mode03-contaienr clearfix">
+
+
+
+                                <div class="mode03-fl fl">
+                                    <div class="mode03-fl-title"><span class="mode03-fl-title-data">2018-05-06</span>&nbsp;</div>
+                                    <div class="mode03-fl-content  clearfix">
+                                        <div class="mode03-fl-content-fl fl">
+                                            <div class="mode03-fl-content-fl-list">
+                                                <div class="mode03-fl-content-fl-list-t1">总公共区域用<span class="ZLtype"></span></div>
+                                                <div class="mode03-fl-content-fl-list-t2"><span class="mode03-fl-content-fl-list-t2-span ZHgg">2156262</span><span class="ZLdun">度</span></div>
+                                            </div>
+
+                                            <div class="mode03-fl-content-fl-list">
+                                                <div class="mode03-fl-content-fl-list-t1">生产区域用<span class="ZLtype"></span></div>
+                                                <div class="mode03-fl-content-fl-list-t2"><span class="mode03-fl-content-fl-list-t2-span ZHsc">2156262</span><span class="ZLdun">度</span></div>
+                                            </div>
+
+                                            <div class="mode03-fl-content-fl-list">
+                                                <div class="mode03-fl-content-fl-list-t1">照明区域用<span class="ZLtype"></span></div>
+                                                <div class="mode03-fl-content-fl-list-t2"><span class="mode03-fl-content-fl-list-t2-span ZHzm">2156262</span><span class="ZLdun">度</span></div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="mode03-fl-content-fr fr">
+                                            <div id="bt" _echarts_instance_="ec_1547194643730" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;"><div style="position: relative; overflow: hidden; width: 340px; height: 260px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="340" height="260" style="position: absolute; left: 0px; top: 0px; width: 340px; height: 260px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="mode03-fl fr">
+                                    <div class="mode03-fl-title"><span class="mode03-fl-title-data">2018-05-06</span>&nbsp;用<span class="ZLtype">电</span>统计</div>
+                                    <div class="mode03-fl-content mode03-fr-content">
+                                        <div class="mode03-fr-content-01">
+                                            <div id="zxt" _echarts_instance_="ec_1547194643731" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;"><div style="position: relative; overflow: hidden; width: 466px; height: 260px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="466" height="260" style="position: absolute; left: 0px; top: 0px; width: 466px; height: 260px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
                         </div>
 
-
-                        <div class="area-content02">
-
-                            <div class="area-content02-title clearfix">
-                                <div class="area-content02-title-fl fl">耗<span class="ZLtype">电</span>成本</div>
-                                <div class="area-content02-title-fr fr clearfix">
-                                    <!--<div class="area-content02-title-fr-span fl">12.71</div>m²-->
-                                </div>
-                            </div>
-
-
-
-                            <div class="area-content02-list">
-                                <div class="area-content02-list-li clearfix">
-                                    <div class="area-content02-list-li-fl fl">峰</div>
-                                    <div class="area-content02-list-li-fr fr">0<span>元</span></div>
-                                </div>
-                                <div class="area-content02-list-li clearfix">
-                                    <div class="area-content02-list-li-fl fl">谷</div>
-                                    <div class="area-content02-list-li-fr fr">0<span>元</span></div>
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
 
@@ -278,8 +302,7 @@
 <script src="js/compatible/datepicker.all.js"></script>
 <script src="js/selectdata.js"></script>
 <script src="js/compatible/echarts.js"></script>
-
-<script src="js/char02.js"></script>
+<script src="js/char01.js"></script>
 <script src="js/compatible/OverlayScrollbars.js"></script>
 <script>
     $('.zTreeDemoBackground').overlayScrollbars({

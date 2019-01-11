@@ -50,3 +50,22 @@ html , body{height: 100%;width: 100%;}
 .menu-nav-a a{color: white;}
 .menu-container{width: 958px;background-color: #fbfbfb;position: relative;overflow: hidden;height: 550px;}
 .menu-container-lm{position: absolute;top: 0;right: -17px;left:0;bottom:0;overflow-x: hidden;overflow-y: scroll;}
+
+/*0111修改*/
+.c-fl-container-menu {width: 1140px;    padding-top: 20px;}
+.menu-nav:nth-child(n+2) {
+    margin-top: 10px;
+}
+.menu-container {width: 990px;}
+.foot {position: fixed;}
+.header {height: 100px;}
+.logo {
+    line-height:100px;
+}
+.nav {
+    height: 98px;}
+.nav-top {
+    margin-top: 16px;
+}
+.search {
+    margin-top: 36px;}

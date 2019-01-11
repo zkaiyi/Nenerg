@@ -64,3 +64,14 @@
 .os-theme-dark > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle {
     background: #e7e3e3;
 }
+
+/*0111*/
+.char-container-fr {
+    width: 990px;
+}
+.area-info-fr {
+    width: 760px;}
+.area-content02 {
+    margin-top: 9px;
+}
+.area-content02-list-li {height: 50px;line-height: 50px;}

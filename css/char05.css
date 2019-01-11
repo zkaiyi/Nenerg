@@ -1,0 +1,11 @@
+.content {
+    width: 1500px;}
+.area-info-fl {
+    width: 280px;height: 679px;}
+.zTreeDemoBackground {
+    height: 630px;}
+.area-info-fl-contaioner{overflow: hidden;}
+.area-info-fl{border-radius: 5px;overflow: hidden;}
+.area-info-fr {
+    width: 100%;
+}

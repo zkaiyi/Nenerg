@@ -1,0 +1,24 @@
+.info-container {
+    width: 100%;
+}
+.info-02-mode-fr {
+    width: 400px;
+}
+.mode03-fl {
+    height: 270px;
+}
+.mode03-fl-title {
+    line-height: 26px;
+    font-size: 14px;
+}
+.mode03-fl-content-fl-list {
+    padding-top: 20px;
+}
+.mode03-fl-content-fl-list-t1 {
+    font-size: 12px;}
+.mode03-fl-content-fl-list-t2 {
+    font-size: 14px;}
+#bt {
+    width: 230px;
+    height: 240px;
+}

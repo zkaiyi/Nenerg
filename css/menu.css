@@ -70,3 +70,23 @@
 /*历史记录*/
 .menu-02-his-container{    width: 958px;height: 550px;}
 #chart01{width: 100%;height:100%;}
+
+
+/*0111修改*/
+.menu-item-list-container {width: 950px;}
+.menu-item-list {
+    margin-top: 10px;
+}
+.menu-04-container {
+    width: 990px;
+}
+.menu-04-c {
+    margin-top: 10px;
+}
+.message-list-fl {
+    font-size: 18px;}
+.message-list-fr {
+
+    font-size: 17px;
+
+}

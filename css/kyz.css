@@ -16,3 +16,36 @@
 .kyz-list-fl-t2{margin-top: 10px;}
 .kyz-list:hover{cursor: pointer;}
 .kyz-container{padding-top: 14px;}
+
+/*0111*/
+.kyz-list {
+    width: 550px;}
+.kyz-list:nth-child(2n) {
+    margin-left: 20px;
+}
+.kyz-container {
+    padding-top: 10px;
+}
+.c-fl-container-kyz {
+    width: 1140px;}
+.kyz-list-fl{width: 60px;height: 62px;}
+.kyz-list-fr {
+    margin-left: 15px;
+}
+.kyz-list-fl, .kyz-list-fr {
+    margin-top: 18px;
+}
+.kyz-list-fl-t1-name {
+    font-size: 20px;
+    width: 120px;
+}
+.kyz-list-fl-t1-n {
+    font-size: 21px;
+
+}
+.kyz-list-fl-t1-name01 {
+    font-size: 19px;
+    width: 120px;
+}
+.kyz-list-fl-t1-n01 {
+    font-size: 19px;}

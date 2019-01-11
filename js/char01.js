@@ -14,7 +14,7 @@ $(function () {
         legend: {
             orient: 'vertical',
             x: 'right',
-            data:['1','2','3','4','5']
+            data:['公共','生产','照明']
         },
         series: [
             {
@@ -41,11 +41,9 @@ $(function () {
                     }
                 },
                 data:[
-                    {value:335, name:'1'},
-                    {value:310, name:'2'},
-                    {value:234, name:'3'},
-                    {value:135, name:'4'},
-                    {value:1548, name:'5'}
+                    {value:335, name:'公共'},
+                    {value:310, name:'生产'},
+                    {value:234, name:'照明'}
                 ]
             }
         ]
@@ -137,5 +135,37 @@ $(function () {
     ;
     if (option01 && typeof option01 === "object") {
         myChart01.setOption(option01, true);
+    }
+});
+
+
+// 触发
+$(".xl01-list-title").click(function () {
+    if($(this).siblings().hasClass("hide")){
+
+        $(this).siblings().slideDown();
+        $(this).siblings().removeClass("hide");
+        $(this).find("img").attr("src","img/char/j.png");
+
+    }else {
+
+        $(this).siblings().slideUp();
+        $(this).siblings().addClass("hide");
+        $(this).find("img").attr("src","img/char/ji.png");
+    }
+});
+$(".xl01-list02-title").click(function () {
+    if($(this).siblings().hasClass("hide")){
+
+        $(this).siblings().slideDown();
+        $(this).siblings().removeClass("hide");
+        $(this).find("img").attr("src","img/char/ji.png");
+
+
+    }else {
+
+        $(this).siblings().slideUp();
+        $(this).siblings().addClass("hide");
+        $(this).find("img").attr("src","img/char/j.png");
     }
 });

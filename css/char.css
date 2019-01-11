@@ -47,3 +47,37 @@
 .mode03-fr-content-01{width: 95%;margin-left: 3%;    height: 220px;}
 #zxt{height: 100%;}
 
+/*0111*/
+.info-container {width: 990px;}
+.info-02-mode-fr {width: 630px;}
+.info-02-mode-fr-list {height: 71px;}
+.info-02-mode-fr-list:nth-child(n+2) {
+    margin-top: 5px;
+}
+.mode03-contaienr {
+    margin-top: 11px;
+}
+.mode03-fl {
+    height: 290px;
+}
+.mode03-fl-title {line-height: 36px;font-size: 16px;}
+.mode03-fl-content-fl-list {
+    padding-top: 30px;
+}
+#bt {
+    width: 340px;
+    height: 260px;
+}
+.mode03-fr-content-01 {
+    height: 260px;margin-left: 0;
+}
+.mode03-fl {
+    width: 49.5%;}
+.info-02-mode-fr-list-fl {
+    font-size: 16px;}
+.mode03-fl-content-fl-list-t1 {
+    font-size: 16px;}
+.mode03-fl-content-fl-list-t2 {
+    font-size: 17px;}
+
+
