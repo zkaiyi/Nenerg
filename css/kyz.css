@@ -49,3 +49,28 @@
 }
 .kyz-list-fl-t1-n01 {
     font-size: 19px;}
+
+/*0121*/
+.kyz_new_01{width: 530px;margin-left: 30px;}
+.kyz-list:nth-child(2n){margin-left: 0;}
+.kyz-list-fl{width: 22px;height: 27px;}
+.kyz-list-fl{margin-top: 35px;}
+.kyz-list {
+    width: 95%;
+}
+.kyz_new_02{width: 530px;margin-right: 24px;}
+.sblb-list{width:255px;border-radius: 10px;border: 1px solid #eaebec;padding-top: 27px;padding-bottom: 23px; margin-top: 12px;}
+.sblb-list-fl{width: 75px;text-align: center;font-size: 17px;color: #333333;line-height: 62px;}
+.sblb-list-fr{width: 175px;text-align: left;}
+.sblb-list-fr-01{font-size: 17px;color: #333333;}
+.sblb-list-fr-02{font-size: 14px;color: #878787;}
+.sblb-list:nth-child(2n){margin-left: 10px;}
+.sblb{padding-top: 22px;}
+.sblb-nodata{margin-top: 45px;}
+.sblb-nodata-01{text-align: center;}
+.sblb-nodata-02{font-size: 17px;color: #c70707;margin-left: 175px;}
+.sblb-list:hover{cursor: pointer;}
+/*0214*/
+.kyz-list-fl-t1-name , .kyz-list-fl-t1-n{font-size: 17px;}
+.kyz-list-fl-t1-n01{font-size: 15px;}
+.kyz-list-fl-t1-name01{font-size: 16.8px;}

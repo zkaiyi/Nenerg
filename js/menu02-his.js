@@ -17,7 +17,21 @@ option = {
     },
     toolbox: {
         feature: {
-            saveAsImage: {}
+
+            myTool2: {
+                left:'center',
+                width:"32px",
+                show: true,
+                title: '全屏',
+                // icon: 'image://http://echarts.baidu.com/images/favicon.png',
+                icon: 'image://../newEnergy/img/base/tool-icon.png',
+                onclick: function (){
+                    window.open("qp.html");
+
+
+                },
+                // saveAsImage: {}
+            }
         }
     },
     xAxis: {

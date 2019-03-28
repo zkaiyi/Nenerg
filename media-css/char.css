@@ -1,0 +1,109 @@
+@media screen and (max-width:1437px) and (min-width:1200px){
+    .content{width: 1250px;height: 600px;}
+    .c-fl{width: 1050px;height: 570px;}
+    .c-fl-a{width: 1080px;height: 595px;}
+    .content{height: 480px;}
+    .c-fl {
+        height: 450px;}
+    .c-fl-a {
+        height: 475px;
+    }
+
+    .c-fl-container-menu{width: 1030px;}
+    .char-container-fr{width: 800px;}
+    .info-container{width: 800px;}
+    .info-02-mode-fr{width: 440px;}
+    #bt{width: 270px;}
+
+    .info-02-mode-fr-list {
+        height: 45px;
+    }
+    .info-02-mode-fl {
+        width: 353px;
+        height: 150px;}
+    .zTreeDemoBackground{height: 500px;}
+    .info-02-mode-fr-list-fl{line-height: 45px;}
+    .info-02-mode-fr-list-fr{line-height: 45px;}
+    .info-02-mode-fr-list-fl-img{width: 30px;height:30px;}
+    .mode03-contaienr {
+        margin-top: 12px;
+    }
+    .area-info-fr{height: auto;}
+    .zTreeDemoBackground{height: 380px;}
+
+    .mode03-fl {
+        height: 205px;
+    }
+    .mode03-fl-content-fl-list {
+        padding-top: 10px;
+    }
+    .mode03-fl-content-fl-list-t1 {
+        font-size: 12px;
+    }
+    .mode03-fl-content-fl-list-t2 {
+        font-size: 13px;
+    }
+    #bt{height: 180px;}
+    .mode03-fr-content{height: 180px;}
+    .mode03-fr-content-01{height: 180px;}
+    .area-content-top {
+        height: 210px;
+    }
+    .area-content-top-container-t1-fl {
+        font-size: 13px;
+        color: #333333;
+    }
+    .span-n-01 {
+        font-size: 16px;
+        color: #0187f5;
+    }
+    .area-content-top-container-t1-fr-fl {
+        font-size: 13px;
+        color: #333333;
+    }
+    .area-info-area {
+        height: 180px;
+        width: 100%;
+    }
+    #table{height: 110%;}
+
+    /*0218*/
+    .info-02-mode-fr {width: 390px;}
+    .info-02-mode-fr-fl{height: 150px;}
+    #bt {
+        height: 123px;
+    }
+    .mode03-fl-content-fl-list{
+        padding-top: 2px;
+    }
+    .mode03-fl-content-fl-list-t2{font-size: 12px;line-height: 26px;}
+    .mode03-fl-title {
+        line-height:26px;
+        font-size: 13px;
+    }
+    .info-02-mode-fr-list-fr-span{font-size: 13px;}
+    .info-02-mode-fr-fl {
+        height: 200px;
+    }
+    .mode03-fr-content {
+        height: 150px;
+    }
+    .mode03-fl{height: 150px;}
+    .mode03-fr-content-01 {
+        height: 150px;
+    }
+    .info-02-mode-fr-fl {
+        height: 200px;
+    }
+/*0219*/
+    .mode03-fl-content-fl-list {
+        padding-top: 20px;
+    }
+
+
+
+
+
+
+
+}

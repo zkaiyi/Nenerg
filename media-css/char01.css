@@ -1,0 +1,22 @@
+@media screen and (max-width:1437px) and (min-width:1200px){
+
+    /*左边*/
+    .area-info-fl{height: 400px;}
+    .area-info-fl-ab{height: 400px;right: -17px;left: 0;width: 234px;}
+
+
+
+    /*右边*/
+    .info-banner{height:26px;}
+    .info-banner-fl{font-size: 13px;height: 26px;}
+    .area-content02-list02{height:190px;}
+
+    .area-info-fl-contaioner{width: 216px;margin-left: 1px;margin-right: 0;}
+
+
+
+
+
+
+
+}

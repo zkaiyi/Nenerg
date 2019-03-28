@@ -1,0 +1,21 @@
+@media screen and (max-width:1400px) and (min-width:1200px){
+    .content{height: 600px;}
+    .c-fl{height: 570px;}
+    .c-fl-a{ height: 595px;}
+
+    .content{height: 480px;}
+    .c-fl {
+        height: 450px;}
+    .c-fl-a {
+        height: 475px;
+    }
+    .kyz-list-fl-t1-name{font-size: 18px;}
+    .kyz-list-fl-t1-name01{font-size: 17px;}
+    .kyz-list-fl-t1-n , .kyz-list-fl-t1-n01{font-size: 19px;}
+    .kyz-list-fl, .kyz-list-fr {
+        margin-top: 5px;
+    }
+    .kyz-list{height: 80px;}
+    .kyz-container{overflow: auto;height: 350px;}
+    .kyz-list-fl{margin-top: 20px;}
+}

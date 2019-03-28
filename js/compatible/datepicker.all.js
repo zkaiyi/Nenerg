@@ -2195,7 +2195,6 @@ $(function () {
     show: function () {
       var offset = this.$target.offset();
       var height = this.$target.outerHeight();
-
       // this.pickerObject.$container.css({
       //   top: offset.top + height,
       //   left: offset.left - 190
@@ -2207,13 +2206,16 @@ $(function () {
         var need_W = $(window).width();
         if(need_W <= 620){
             this.pickerObject.$container.css({
-                top: offset.top + height,
-                // left: offset.left - 190
+                // top: offset.top + height,
+                top: offset.top - 40,
             });
         }else {
             this.pickerObject.$container.css({
-                top: offset.top + height,
-                left: offset.left - 190
+                // top: offset.top + height,
+                // left: offset.left - 190
+                top: offset.top - 40,
+                left: offset.left + 130
+
             });
         }
 

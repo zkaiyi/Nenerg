@@ -1,0 +1,36 @@
+@media screen and (max-width:1400px) and (min-width:1200px){
+    .content{height: 600px;}
+    .c-fl{height: 570px;}
+    .c-fl-a{ height: 595px;}
+    .content{height: 480px;}
+    .c-fl {
+        height: 450px;}
+    .c-fl-a {
+        height: 475px;
+    }
+
+
+    .menu-03-container{    height: 420px;}
+    .menu-container{height: 420px;}
+
+    #gplot_01 {
+        top: 100px;
+        left: 0;
+    }
+    #gplot_06 {
+        top: 280px;
+        right: 0;
+    }
+    .gplot-content-title{font-size: 12px;height: 20px;
+        line-height: 20px;}
+
+
+    /*0219*/
+    .menu-02-his-container {
+        width: 958px;
+        height: 400px;
+    }
+
+
+
+}

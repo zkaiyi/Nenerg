@@ -1,0 +1,64 @@
+@media screen and (max-width:1400px) and (min-width:1200px){
+    /*首页*/
+    .c-fl-container-01-fr-fl {
+        width: 216px;
+        height: 50px;
+    }
+    .c-fl-container-01-fr-fl-t{line-height: 50px;}
+    .c-fl-container-01-fr-fl-img{width: 40px;height: auto;margin-top: 10px;}
+    .content{height: 480px;}
+    .c-fl {
+        height: 450px;}
+    .c-fl-a {
+        height: 475px;
+        width: 1028px;
+    }
+    .right-nav {
+        height: 150px;
+    }
+    .right-nav-top {
+        padding-top: 26px;
+    }
+    .c-fl-container-01-ab{display: none;}
+    .c-fl-container-01-fr-fl {
+        margin-top: 11px;
+    }
+    .c-fl-container-01-fr-fl:nth-child(n+3){margin-top: 11px;}
+    .sblx_new_title02 {
+        margin-top: 20px;
+    }
+    .sblx_new {
+        padding-top: 0px;
+    }
+    .sblx_new_key_list-w {
+        padding-top: 10px;}
+    .sblx_new_title02 {
+        margin-top: 10px;
+    }
+    .sblx_new_key_list-02-t1{font-size: 14px;}
+    .sblx_new_key_list-02-t2{font-size: 12px;}
+    .sblx_new_key_list-02-t3{font-size: 12px;}
+    .sblx_new_key_list-w {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    /*首页二张*/
+    .c-fl-container-02-list-c-02 {
+        height: 350px;
+    }
+    .c-fl-container-02-list-c-02 {
+        height: 280px;
+    }
+    .c-fl-container-02-list-c{margin-top: 10px;}
+    .c-fl-container-02-list-title{font-size: 18px;}
+
+
+    /*首页三张*/
+    .c-fl-container-03-list-border{height: 250px;}
+    .c-fl-container-03-list-border{height: 200px;}
+
+
+    /*0219*/
+    .qb02 {top: 35px;}
+
+    }

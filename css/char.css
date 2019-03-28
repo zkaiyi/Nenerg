@@ -80,4 +80,13 @@
 .mode03-fl-content-fl-list-t2 {
     font-size: 17px;}
 
+/*0219*/
+.info-02-mode-fr-list {
+    height: 60px;
+}
+#zxt{height: 110%;    top: -10px;}
+
+
+.info-02-mode-fr-list {height: 60px;position: relative;}
+.info-02-mode-fr-list-fr {margin-right: 0;line-height: 65px;font-size: 16px;position: absolute;color: #5c5c5c;right: 29px;}
 

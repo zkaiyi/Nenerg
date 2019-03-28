@@ -69,3 +69,34 @@ html , body{height: 100%;width: 100%;}
 }
 .search {
     margin-top: 36px;}
+
+
+
+/*0122*/
+.header{height: 60px;}
+.logo{line-height: 60px;}
+.nav{height: 56px;}
+.nav-top{margin-top: 5px;}
+.nav-top img{width:25px; }
+.search {
+    margin-top: 20px;
+}
+.logo-img {
+    width: 200px;}
+.search{display: none;}
+.logo {
+    width: 267px;text-align: center;}
+
+/*0211*/
+.nav-top{margin-top: 18px;margin-right: 10px;margin-left: 22px;}
+.nav-b{margin-top: 26px;}
+.nav{width: 154px;}
+
+/*0214*/
+.nav:nth-child(2) img{
+   width: 20px;height: 20px;margin-top: 5px;
+}
+.nav:nth-child(3) img{
+    width: 20px;height: 20px;margin-top: 5px;
+}
+

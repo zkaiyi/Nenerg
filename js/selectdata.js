@@ -155,16 +155,31 @@ $(function(){
     //年月单个
     $('.J-yearMonthPicker-single').datePicker({
         format: 'YYYY-MM',
-        min: '2018-01',
-        max: '2019-04'
+        min: '2019-01',
+        max: '2019-12'
     });
 
     //选择年
     $('.J-yearPicker-single').datePicker({
         format: 'YYYY',
         min: '2018',
-        max: '2020'
+        max: '2019'
     });
+
+    //选择月
+    $('.J-yearPicker-single02').datePicker({
+        format: 'MM',
+        min: '01',
+        max: '12'
+
+
+    });
+
+
+
+
+
+
 
 
 });
